@@ -4,8 +4,6 @@
 
 sudo apt update && sudo apt upgrade -y && sudo apt autoremove
 
-### Install Ansible ###
+### Install Ansible 2.7 from default Debian 10 repositories ###
 
-sudo apt install software-properties-common -y && sudo apt update && sudo apt-add-repository ppa:ansible/ansible && \
 sudo apt update && sudo apt install ansible -y
-
